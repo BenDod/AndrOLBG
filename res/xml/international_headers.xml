@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- International -->
+    <header
+        tipId="74"
+        intent="MakeTipActivity"
+        title="international_title" />
+
+    <!-- Olympics -->
+    <header
+        tipId="119"
+        intent="MakeTipActivity"
+        title="olympics_title" />
+
+	<!-- World Cup Finals -->
+    <header
+        tipId="77"
+        intent="MakeTipActivity"
+        title="world_cup_finals_title" />
+
+</tips-headers>

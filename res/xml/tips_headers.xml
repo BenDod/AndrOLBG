@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Horse Racing -->
+    <header
+        tipId="2"
+        intent="MakeTipActivity"
+        title="horse_racing_title"
+        icon="ic_horse_racing" />
+
+    <!-- Football -->
+    <header
+        tipId="1"
+        intent="TipsMenuActivity"
+        title="football_title"
+        icon="ic_football" />
+
+    <!-- Golf -->
+    <header
+        tipId="8"
+        intent="MakeTipActivity"
+        title="golf_title"
+        icon="ic_golf" />
+
+    <!-- Tennis -->
+    <header
+        tipId="9"
+        intent="MakeTipActivity"
+        title="tennis_title"
+        icon="ic_tennis" />
+
+    <!-- Rugby -->
+    <header
+        tipId="12"
+        intent="TipsMenuActivity"
+        title="rugby_title"
+        icon="ic_rugby" />
+
+    <!-- Specials -->
+    <header
+        tipId="7"
+        intent="MakeTipActivity"
+        title="specials_title"
+        icon="ic_specials" />
+
+    <!-- Cricket -->
+    <header
+        tipId="4"
+        intent="MakeTipActivity"
+        title="cricket_title"
+        icon="ic_cricket" />
+
+    <!-- US Sports -->
+    <header
+        tipId="5"
+        intent="TipsMenuActivity"
+        title="us_sports_title"
+        icon="ic_us_sports" />
+
+    <!-- Snooker -->
+    <header
+        tipId="6"
+        intent="MakeTipActivity"
+        title="snooker_title"
+        icon="ic_snooker" />
+
+    <!-- Motor Racing -->
+    <header
+        tipId="3"
+        intent="MakeTipActivity"
+        title="motor_racing_title"
+        icon="ic_motor_racing" />
+
+    <!-- Darts -->
+    <header
+        tipId="18"
+        intent="MakeTipActivity"
+        title="darts_title"
+        icon="ic_darts" />
+
+    <!-- Boxing -->
+    <header
+        tipId="17"
+        intent="MakeTipActivity"
+        title="boxing_title"
+        icon="ic_boxing" />
+
+	<!-- Dogs -->
+    <header
+        tipId="27"
+        intent="MakeTipActivity"
+        title="dogs_title" 
+        icon="ic_dogs" />
+
+	<!-- Athletics -->
+    <header
+        tipId="28"
+        intent="MakeTipActivity"
+        title="athletics_title" 
+        icon="ic_athletics" />
+
+</tips-headers>

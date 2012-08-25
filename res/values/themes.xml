@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="olbg_main" parent="@style/Theme.Sherlock">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:actionBarStyle">@style/Widget.Sherlock.ActionBar.Solid</item>
+        <item name="actionBarStyle">@style/Widget.Sherlock.ActionBar.Solid</item>
+    </style>
+
+    <style name="olbg_about" parent="@style/Theme.Sherlock.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+     </style>
+
+</resources>

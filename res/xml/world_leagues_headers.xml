@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Argentinian Apertura -->
+    <header
+        tipId="120"
+        intent="MakeTipActivity"
+        title="argentinian_apertura_title" />
+
+    <!-- Brasilian -->
+    <header
+        tipId="55"
+        intent="MakeTipActivity"
+        title="brasilian_title" />
+
+    <!-- Chilean -->
+    <header
+        tipId="109"
+        intent="MakeTipActivity"
+        title="chilean_title" />
+
+    <!-- J-League -->
+    <header
+        tipId="68"
+        intent="MakeTipActivity"
+        title="j_league_title" />
+
+    <!-- MLS -->
+    <header
+        tipId="92"
+        intent="MakeTipActivity"
+        title="mls_title" />
+
+</tips-headers>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Baseball -->
+    <header
+        tipId="23"
+        intent="MakeTipActivity"
+        title="baseball_title" />
+
+    <!-- Basketball -->
+    <header
+        tipId="25"
+        intent="MakeTipActivity"
+        title="basketball_title" />
+
+    <!-- NFL -->
+    <header
+        tipId="11"
+        intent="MakeTipActivity"
+        title="nfl_title" />
+
+    <!-- NHL -->
+    <header
+        tipId="24"
+        intent="MakeTipActivity"
+        title="nhl_title" />
+
+</tips-headers>

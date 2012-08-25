@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="60dip"
+        android:background="@drawable/helper_bcg"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/status_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dip" />
+
+        <TextView
+            android:id="@+id/status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/status_icon"
+            android:gravity="center"
+            android:padding="4dip"
+            android:textColor="@color/text_icon"
+            android:textSize="14dip" />
+    </RelativeLayout>
+    <!-- ** -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="45dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="4dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="74dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:onClick="olbgMakeTip"
+                android:orientation="vertical" >
+
+                <View
+                    android:id="@+id/make_tip"
+                    style="@style/icon_mainscreen"
+                    android:background="@drawable/main_live" />
+
+                <TextView
+                    style="@style/icon_mainscreen_text"
+                    android:text="@string/make_tip_button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="74dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:onClick="olbgTipHistory"
+                android:orientation="vertical" >
+
+                <View
+                    android:id="@+id/history"
+                    style="@style/icon_mainscreen"
+                    android:background="@drawable/main_nearby_disabled" />
+
+                <TextView
+                    style="@style/icon_mainscreen_text"
+                    android:text="@string/tip_history_button" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="74dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:onClick="olbgCurrentTips" >
+
+                <TextView
+                    android:id="@+id/tips_count"
+                    style="@style/icon_mainscreen_count" />
+
+                <LinearLayout
+                    android:layout_width="74dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:orientation="vertical" >
+
+                    <View
+                        android:id="@+id/current"
+                        style="@style/icon_mainscreen"
+                        android:background="@drawable/main_stored" />
+
+                    <TextView
+                        style="@style/icon_mainscreen_text"
+                        android:text="@string/current_tips_button" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="4dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+<!-- ** -->
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_marginRight="6dip"
+			android:layout_marginLeft="6dip"
+			android:orientation="vertical">
+		<TextView android:id="@+id/user_info"
+				style="@style/user_info_current"
+				android:text="@string/init_login_popup_working" />
+		<TextView android:id="@+id/virtual_money"
+				style="@style/virtual_money_current"
+				android:text="" />
+	</LinearLayout>
+</RelativeLayout>

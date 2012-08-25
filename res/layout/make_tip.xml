@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/pick_event" />
+
+    <Spinner android:id="@+id/event_id"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+
+    <TextView
+	        android:id="@+id/pick_market"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/pick_market" />
+
+    <Spinner android:id="@+id/market_id"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+    
+    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/make_selection" />
+
+    <Spinner android:id="@+id/selection_id"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+    
+    <TextView
+	        android:id="@+id/make_nap"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/make_nap" 
+			android:visibility="gone" />
+    
+    <LinearLayout 
+        android:id="@+id/chk_nap_nb"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:visibility="gone" >
+	    
+	    <CheckBox
+	        android:id="@+id/chk_nap"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/chk_nap" />
+    
+    	<CheckBox
+	        android:id="@+id/chk_nb"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/chk_nb" />
+    
+    </LinearLayout>
+    
+    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tip_comment" />
+    
+    <EditText android:id="@+id/comment_id"
+        	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="textMultiLine" />
+
+	<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/total_stake" />
+    
+    <EditText android:id="@+id/stake_id"
+        	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="numberDecimal" />
+
+    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/bet_type" />
+
+    <Spinner android:id="@+id/bet_type_id"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+    
+    <TextView
+	        android:id="@+id/bet_odds"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/bet_odds" />
+
+    <Spinner android:id="@+id/odds_id"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+    
+    <Button android:id="@+id/confirm_tip_btn"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/confirm_tip"
+	        android:onClick="confirmTip" />
+	</LinearLayout>
+</ScrollView>

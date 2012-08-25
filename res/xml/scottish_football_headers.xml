@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Scottish Prem -->
+    <header
+        tipId="39"
+        intent="MakeTipActivity"
+        title="scottish_prem_title" />
+
+    <!-- Scottish 1 -->
+    <header
+        tipId="50"
+        intent="MakeTipActivity"
+        title="scottish1_title" />
+
+    <!-- Scottish 2 -->
+    <header
+        tipId="51"
+        intent="MakeTipActivity"
+        title="scottish2_title" />
+
+    <!-- Scottish 3 -->
+    <header
+        tipId="52"
+        intent="MakeTipActivity"
+        title="scottish3_title" />
+
+</tips-headers>

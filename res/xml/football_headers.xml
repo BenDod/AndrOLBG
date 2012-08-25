@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- English Football -->
+    <header
+        tipId="14"
+        intent="TipsMenuActivity"
+        title="english_football_title" />
+
+    <!-- European Comps -->
+    <header
+        tipId="15"
+        intent="TipsMenuActivity"
+        title="european_comps_title" />
+
+    <!-- European Leagues -->
+    <header
+        tipId="21"
+        intent="TipsMenuActivity"
+        title="european_leagues_title" />
+
+    <!-- International -->
+    <header
+        tipId="22"
+        intent="TipsMenuActivity"
+        title="international_title" />
+
+    <!-- Scottish Football -->
+    <header
+        tipId="30"
+        intent="TipsMenuActivity"
+        title="scottish_football_title" />
+
+    <!-- World Leagues -->
+    <header
+        tipId="26"
+        intent="TipsMenuActivity"
+        title="world_leagues_title" />
+
+</tips-headers>

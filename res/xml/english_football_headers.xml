@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Championship -->
+    <header
+        tipId="13"
+        intent="MakeTipActivity"
+        title="championship_title" />
+
+    <!-- Community Shield -->
+    <header
+        tipId="56"
+        intent="MakeTipActivity"
+        title="community_shield_title" />
+
+    <!-- Conference -->
+    <header
+        tipId="61"
+        intent="MakeTipActivity"
+        title="conference_title" />
+
+    <!-- FA Cup -->
+    <header
+        tipId="42"
+        intent="MakeTipActivity"
+        title="fa_cup_title" />
+
+    <!-- League Cup -->
+    <header
+        tipId="44"
+        intent="MakeTipActivity"
+        title="league_cup_title" />
+
+	<!-- League One -->
+    <header
+        tipId="47"
+        intent="MakeTipActivity"
+        title="league_one_title" />
+
+    <!-- League Two -->
+    <header
+        tipId="48"
+        intent="MakeTipActivity"
+        title="league_two_title" />
+
+    <!-- Premiership -->
+    <header
+        tipId="16"
+        intent="MakeTipActivity"
+        title="premiership_title" />
+    
+</tips-headers>

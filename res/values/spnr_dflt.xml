@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+	<string-array name="market_spinner"> 
+		<item>Pick an Event first</item>
+	</string-array> 
+	<string-array name="selection_spinner"> 
+		<item>Pick a Market first</item>
+	</string-array> 
+	<string-array name="bet_type_spinner"> 
+		<item>Make a Selection</item>
+	</string-array>
+</resources>

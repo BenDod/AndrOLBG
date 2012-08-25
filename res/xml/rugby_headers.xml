@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Rugby League -->
+    <header
+        tipId="75"
+        intent="MakeTipActivity"
+        title="rugby_league_title" />
+
+    <!-- Rugby Union -->
+    <header
+        tipId="10"
+        intent="MakeTipActivity"
+        title="rugby_union_title" />
+
+</tips-headers>

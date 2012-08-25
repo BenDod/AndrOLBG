@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Austrian -->
+    <header
+        tipId="69"
+        intent="MakeTipActivity"
+        title="austrian_title" />
+
+    <!-- Belgian -->
+    <header
+        tipId="54"
+        intent="MakeTipActivity"
+        title="belgian_title" />
+
+    <!-- Bulgarian -->
+    <header
+        tipId="102"
+        intent="MakeTipActivity"
+        title="bulgarian_title" />
+
+    <!-- Croatian -->
+    <header
+        tipId="98"
+        intent="MakeTipActivity"
+        title="croatian_title" />
+
+    <!-- Czech Republic -->
+    <header
+        tipId="83"
+        intent="MakeTipActivity"
+        title="czech_republic_title" />
+
+    <!-- Danish -->
+    <header
+        tipId="58"
+        intent="MakeTipActivity"
+        title="danish_title" />
+
+    <!-- Dutch -->
+    <header
+        tipId="60"
+        intent="MakeTipActivity"
+        title="dutch_title" />
+
+    <!-- Finnish -->
+    <header
+        tipId="59"
+        intent="MakeTipActivity"
+        title="finnish_title" />
+
+    <!-- French -->
+    <header
+        tipId="46"
+        intent="MakeTipActivity"
+        title="french_title" />
+
+    <!-- French 2 -->
+    <header
+        tipId="89"
+        intent="MakeTipActivity"
+        title="french2_title" />
+
+    <!-- German -->
+    <header
+        tipId="45"
+        intent="MakeTipActivity"
+        title="german_title" />
+
+    <!-- German 2 -->
+    <header
+        tipId="90"
+        intent="MakeTipActivity"
+        title="german2_title" />
+
+    <!-- Greek -->
+    <header
+        tipId="100"
+        intent="MakeTipActivity"
+        title="greek_title" />
+
+	<!-- Irish -->
+    <header
+        tipId="66"
+        intent="MakeTipActivity"
+        title="irish_title" />
+
+    <!-- Italian -->
+    <header
+        tipId="29"
+        intent="MakeTipActivity"
+        title="italian_title" />
+
+    <!-- Norwegian -->
+    <header
+        tipId="62"
+        intent="MakeTipActivity"
+        title="norwegian_title" />
+
+	<!-- Polish -->
+    <header
+        tipId="106"
+        intent="MakeTipActivity"
+        title="polish_title" />
+
+	<!-- Portuguese -->
+    <header
+        tipId="63"
+        intent="MakeTipActivity"
+        title="portuguese_title" />
+
+    <!-- Romanian -->
+    <header
+        tipId="99"
+        intent="MakeTipActivity"
+        title="romanian_title" />
+
+    <!-- Russian -->
+    <header
+        tipId="64"
+        intent="MakeTipActivity"
+        title="russian_title" />
+
+    <!-- Slovakian -->
+    <header
+        tipId="108"
+        intent="MakeTipActivity"
+        title="slovakian_title" />
+
+    <!-- Spanish -->
+    <header
+        tipId="19"
+        intent="MakeTipActivity"
+        title="spanish_title" />
+
+	<!-- Spanish 2 -->
+    <header
+        tipId="84"
+        intent="MakeTipActivity"
+        title="spanish2_title" />
+
+	<!-- Swedish -->
+    <header
+        tipId="67"
+        intent="MakeTipActivity"
+        title="swedish_title" />
+
+    <!-- Swiss -->
+    <header
+        tipId="70"
+        intent="MakeTipActivity"
+        title="swiss_title" />
+    
+	<!-- Turkish -->
+    <header
+        tipId="53"
+        intent="MakeTipActivity"
+        title="turkish_title" />
+
+</tips-headers>

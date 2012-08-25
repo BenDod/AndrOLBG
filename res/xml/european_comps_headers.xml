@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tips-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Champ League -->
+    <header
+        tipId="20"
+        intent="MakeTipActivity"
+        title="champ_league_title" />
+
+	<!-- Champ League Qual -->
+    <header
+        tipId="80"
+        intent="MakeTipActivity"
+        title="champ_league_qual_title" />
+
+	<!-- Europa League -->
+    <header
+        tipId="43"
+        intent="MakeTipActivity"
+        title="europa_league_title" />
+
+    <!-- Europa League Qual -->
+    <header
+        tipId="81"
+        intent="MakeTipActivity"
+        title="europa_league_qual_title" />
+    
+</tips-headers>
