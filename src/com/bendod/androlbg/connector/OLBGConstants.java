@@ -26,4 +26,5 @@ public class OLBGConstants {
 	public static final Pattern PATTERN_HIDDEN_SPORT = Pattern.compile("id='sport' type='hidden' value=\'([^\']+)\'");
 	public static final Pattern PATTERN_HIDDEN_SUBSPORT = Pattern.compile("id='subsport' type='hidden' value=\'([^\']+)\'");
 	public static final Pattern PATTERN_HIDDEN_FEEDTABLE = Pattern.compile("id='feedtable' type='hidden' value=\'([^\']+)\'");
+	public static final Pattern PATTERN_HIDDEN_COURSE = Pattern.compile("id='course' value=\'([^\']+)\'");;
 }

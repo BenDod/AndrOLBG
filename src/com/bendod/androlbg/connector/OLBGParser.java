@@ -32,6 +32,11 @@ public abstract class OLBGParser
 			searchResult.add(new LabelValuePair(feedtable,"feedtable"));
 		}
 		
+		if("selection".equals(selectId)) {
+			String course = Utils.getMatch(page, OLBGConstants.PATTERN_HIDDEN_COURSE, "");
+			searchResult.add(new LabelValuePair(course,"course"));
+		}
+		
         int startPos = page.indexOf("<select id=\'" + selectId + "\'");
         if (startPos == -1) {
             return null;
@@ -73,6 +78,10 @@ public abstract class OLBGParser
 			return null;
 		}
 
+		if("selection".equals(selectId) && searchResult.size() == 1) {
+			return null;
+		}
+		
         return searchResult;
     }
 
@@ -149,7 +158,8 @@ public abstract class OLBGParser
         			+ "&price=" + URLEncoder.encode(tip.price, "UTF-8").replace("+", "%20") + "&post_fb=false&post_tw=false" 
         			+ "&comment=" + URLEncoder.encode(tip.comment+"\nvia AndrOLBG", "UTF-8").replace("+", "%20")
         			+ "&sport=" + URLEncoder.encode(tip.sport, "UTF-8").replace("+", "%20") + "&subsport=" + URLEncoder.encode(tip.subSport, "UTF-8").replace("+", "%20")
-        			+ "&tipsterid=" + Login.getActualUserId() + "&feedtable=" + tip.feedTable + "&sid=" + Math.random();
+        			+ "&course=" + URLEncoder.encode(tip.course, "UTF-8").replace("+", "%20") + "&tipsterid=" + Login.getActualUserId() 
+        			+ "&feedtable=" + tip.feedTable + "&sid=" + Math.random();
         final String page = Login.getRequestLogged(uri, params, false);
         if (Utils.isBlank(page)) {
             return StatusCode.NO_DATA_FROM_SERVER;
@@ -173,8 +183,9 @@ public abstract class OLBGParser
         			+ "&price=" + URLEncoder.encode(tip.price, "UTF-8").replace("+", "%20") + "&post_fb=false&post_tw=false" 
         			+ "&comment=" + URLEncoder.encode(tip.comment+"\nvia AndrOLBG", "UTF-8").replace("+", "%20")
         			+ "&sport=" + URLEncoder.encode(tip.sport, "UTF-8").replace("+", "%20") + "&subsport=" + URLEncoder.encode(tip.subSport, "UTF-8").replace("+", "%20")
-        			+ "&tipsterid=" + Login.getActualUserId() + "&feedtable=" + tip.feedTable + "&conftime=" + conftime
-        			+ "&odds=" + odds + "&bookie=" + URLEncoder.encode(bookie, "UTF-8").replace("+", "%20") + "&sid=" + Math.random();
+        			+ "&course=" + URLEncoder.encode(tip.course, "UTF-8").replace("+", "%20") + "&tipsterid=" + Login.getActualUserId() 
+        			+ "&feedtable=" + tip.feedTable + "&conftime=" + conftime + "&odds=" + odds 
+        			+ "&bookie=" + URLEncoder.encode(bookie, "UTF-8").replace("+", "%20") + "&sid=" + Math.random();
         final String page = Login.getRequestLogged(uri, params, false);
         if (Utils.isBlank(page)) {
             return StatusCode.NO_DATA_FROM_SERVER;

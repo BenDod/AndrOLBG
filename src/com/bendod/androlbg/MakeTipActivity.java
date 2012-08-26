@@ -130,6 +130,7 @@ public class MakeTipActivity extends AbstractActivity {
 		@Override
 		public void handleMessage(Message msg) {
 			Spinner spinner = (Spinner) findViewById(R.id.selection_id);
+			tip.course = search.remove(0).toString();
 			ArrayAdapter<LabelValuePair> selectionsAdapter = new ArrayAdapter<LabelValuePair>(app.getBaseContext(), 
 						android.R.layout.simple_spinner_item, search);
 			selectionsAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

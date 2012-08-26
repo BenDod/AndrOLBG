@@ -16,7 +16,7 @@ public class Network
 
 	private static boolean followRedirects = false;
 
-	public static void Network() {
+	public Network() {
 	}
 	
 	private static HttpURLConnection request(String uri) throws IOException {

@@ -16,6 +16,7 @@ public class Tip{
 	public boolean nap;
 	public boolean nb;
 	public String price;
+	public String course;
 	
 	public Tip() {
 		this.marketId = -1;
