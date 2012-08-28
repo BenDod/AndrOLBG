@@ -3,7 +3,7 @@
     name="AndrOLBG"
     package="com.bendod.androlbg"
     android:versionCode="2"
-    android:versionName="0.11" >
+    android:versionName="0.1.1" >
 
     <uses-sdk
         android:minSdkVersion="9"

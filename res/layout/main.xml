@@ -79,7 +79,7 @@
                 <View
                     android:id="@+id/history"
                     style="@style/icon_mainscreen"
-                    android:background="@drawable/main_nearby_disabled" />
+                    android:background="@drawable/android_browser" />
 
                 <TextView
                     style="@style/icon_mainscreen_text"
@@ -105,7 +105,7 @@
                     <View
                         android:id="@+id/current"
                         style="@style/icon_mainscreen"
-                        android:background="@drawable/main_stored" />
+                        android:background="@drawable/android_browser" />
 
                     <TextView
                         style="@style/icon_mainscreen_text"

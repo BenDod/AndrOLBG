@@ -22,6 +22,24 @@
 				android:gravity="center"
 				android:scaleType="fitXY"
 				android:src="@drawable/androlbg" />
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:layout_marginTop="5dip"
+				android:layout_gravity="left"
+				android:textSize="14dip"
+				android:text="@string/quote" />
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:layout_marginBottom="5dip"
+				android:layout_gravity="right"
+				android:textSize="14dip"
+				android:text="@string/powered_by" />
 		</LinearLayout>
 		<RelativeLayout style="@style/separator_horizontal_layout" >
 			<View style="@style/separator_horizontal" />
@@ -38,6 +56,25 @@
 			android:textSize="14dip"
 			android:textStyle="bold"
 			android:id="@+id/about_version_string" />
+		<RelativeLayout style="@style/separator_horizontal_layout" >
+			<View style="@style/separator_horizontal" />
+			<TextView style="@style/separator_horizontal_headline"
+				android:text="@string/about_donate" />
+		</RelativeLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:orientation="horizontal"
+			android:gravity="center_horizontal" >
+			<Button style="@style/button_full"
+				android:id="@+id/donation_more"
+				android:layout_width="280dip"
+				android:singleLine="false"
+				android:lines="2"
+				android:onClick="donate"
+				android:text="@string/about_donation_more" />
+		</LinearLayout>
 		<RelativeLayout style="@style/separator_horizontal_layout" >
 			<View style="@style/separator_horizontal" />
 			<TextView style="@style/separator_horizontal_headline"
@@ -65,6 +102,17 @@
 			android:clickable="true"
 			android:onClick="twitter"
 			android:text="@string/twitter" />
+		<TextView android:id="@+id/code"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="5dip"
+			android:layout_gravity="left"
+			android:textSize="14dip"
+			android:clickable="true"
+			android:onClick="code"
+			android:text="@string/code" />
 		<RelativeLayout style="@style/separator_horizontal_layout" >
 			<View style="@style/separator_horizontal" />
 			<TextView style="@style/separator_horizontal_headline"

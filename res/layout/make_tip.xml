@@ -95,11 +95,13 @@
 	        android:id="@+id/bet_odds"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:text="@string/bet_odds" />
+	        android:text="@string/bet_odds" 
+			android:visibility="gone" />
 
     <Spinner android:id="@+id/odds_id"
             android:layout_width="fill_parent"
-	        android:layout_height="wrap_content" />
+	        android:layout_height="wrap_content"
+			android:visibility="gone" />
     
     <Button android:id="@+id/confirm_tip_btn"
         	android:layout_width="wrap_content"

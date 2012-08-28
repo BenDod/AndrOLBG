@@ -135,8 +135,10 @@
     <!-- about -->
 	<string name="about_version">Version</string>
 	<string name="about_changelog">Changelog</string>
-	<string name="about_detail">Details</string>
-    
+	<string name="about_donate">Donate</string>
+  	<string name="about_detail">Details</string>
+  	<string name="about_donation_more">Donate\ndevelopment</string>
+  
     <!-- init -->
     <string name="init_olbg">OLBG.com</string>
     <string name="init_twitter">Twitter</string>
@@ -172,9 +174,12 @@
 	
     <!-- next things -->
     <string name="legal_note">To use the services of OLBG.com, terms and conditions of the <a href="http://www.olbg.com/use.php">OLBG Terms of Use</a> have to be agreed.</string>
-	<string name="register_now">Don\'t have an acount? <a href="http://www.olbg.com/?tx160039">Register now!</a></string>
+	<string name="quote">Make tips with your fingertips…</string>
+  	<string name="powered_by">BenDod</string>
+  	<string name="register_now">Don\'t have an acount? <a href="http://www.olbg.com/?tx160039">Register now!</a></string>
     <string name="support">Support: <a href="mailto:BenDod.Dev@gmail.com">BenDod.Dev@gmail.com</a></string>
   	<string name="twitter">Twitter: <a href="http://www.twitter.com/bendod_dev">BenDod_Dev</a></string>
+	<string name="code">Code: <a href="https://github.com/BenDod/AndrOLBG">AndrOLBG on GitHub</a></string>
 	<string name="about_twitter">Should <b>AndrOLBG</b> publish a new status on Twitter every time you make a tip?</string>
 	<string name="about_auth_1">The following process allows <b>AndrOLBG</b> to access Twitter - if agreed.</string>
 	<string name="about_auth_2">A click on the \"authorize AndrOLBG\" button will start the proccess.</string>
@@ -184,11 +189,11 @@
     <b>New Features/Functions:</b>\n
     · Now you can make tip from your Android device\n
 	· Horse tipping fix\n
+	· Other minor bugs fix\n
 	\n
     <b>Known Bugs/Issues:</b>\n
-	· Force close when tipping without internet connection\n
 	· History and Current tips only on browser\n
-	· Twitter and signature are not supported yet\n
+	· Twitter are not supported yet\n
 	\n</string>
     
 </resources>
