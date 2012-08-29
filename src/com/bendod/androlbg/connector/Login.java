@@ -128,7 +128,7 @@ public class Login {
         return actualUnsettledTips;
     }
 
-	static void setActualUnsettledTips(final int found) {
+	public static void setActualUnsettledTips(final int found) {
         actualUnsettledTips = found;
     }
 
@@ -136,7 +136,7 @@ public class Login {
         return actualVirtualMoney;
     }
 
-	static void setActualVirtualMoney(final int found) {
+	public static void setActualVirtualMoney(final int found) {
 		actualVirtualMoney = found;
     }
 

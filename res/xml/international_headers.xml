@@ -4,6 +4,36 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
 
 
+    <!-- African Nations Cup -->
+    <header
+        tipId="87"
+        intent="MakeTipActivity"
+        title="african_nations_cup_title" />
+
+    <!-- Asian Cup -->
+    <header
+        tipId="113"
+        intent="MakeTipActivity"
+        title="asian_cup_title" />
+
+    <!-- Confederations Cup -->
+    <header
+        tipId="79"
+        intent="MakeTipActivity"
+        title="confederations_cup_title" />
+
+    <!-- Copa America -->
+    <header
+        tipId="57"
+        intent="MakeTipActivity"
+        title="copa_america_title" />
+
+    <!-- Euro U21 -->
+    <header
+        tipId="103"
+        intent="MakeTipActivity"
+        title="euro_u21_title" />
+
     <!-- International -->
     <header
         tipId="74"
@@ -22,4 +52,10 @@
         intent="MakeTipActivity"
         title="world_cup_finals_title" />
 
+    <!-- World Cup Qualifiers -->
+    <header
+        tipId="49"
+        intent="MakeTipActivity"
+        title="world_cup_qualifiers_title" />
+    
 </tips-headers>

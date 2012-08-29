@@ -8,24 +8,28 @@
     <header
         tipId="23"
         intent="MakeTipActivity"
-        title="baseball_title" />
+        title="baseball_title"
+        icon="baseball" />
 
     <!-- Basketball -->
     <header
         tipId="25"
         intent="MakeTipActivity"
-        title="basketball_title" />
+        title="basketball_title"
+        icon="basketball" />
 
     <!-- NFL -->
     <header
         tipId="11"
         intent="MakeTipActivity"
-        title="nfl_title" />
+        title="nfl_title"
+        icon="nfl" />
 
     <!-- NHL -->
     <header
         tipId="24"
         intent="MakeTipActivity"
-        title="nhl_title" />
+        title="nhl_title"
+        icon="nhl" />
 
 </tips-headers>

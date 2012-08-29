@@ -8,30 +8,56 @@
     <header
         tipId="120"
         intent="MakeTipActivity"
-        title="argentinian_apertura_title" />
+        title="argentinian_apertura_title"
+        icon="argentina" />
+
+    <!-- Argentinian Clausura -->
+    <header
+        tipId="71"
+        intent="MakeTipActivity"
+        title="argentinian_clausura_title"
+        icon="argentina" />
+
+    <!-- Australian -->
+    <header
+        tipId="94"
+        intent="MakeTipActivity"
+        title="australian_title"
+        icon="australia" />
 
     <!-- Brasilian -->
     <header
         tipId="55"
         intent="MakeTipActivity"
-        title="brasilian_title" />
+        title="brasilian_title"
+        icon="brazil" />
 
     <!-- Chilean -->
     <header
         tipId="109"
         intent="MakeTipActivity"
-        title="chilean_title" />
+        title="chilean_title"
+        icon="chile" />
 
     <!-- J-League -->
     <header
         tipId="68"
         intent="MakeTipActivity"
-        title="j_league_title" />
+        title="j_league_title"
+        icon="japan" />
+
+    <!-- Mexican -->
+    <header
+        tipId="110"
+        intent="MakeTipActivity"
+        title="mexican_title"
+        icon="mexico" />
 
     <!-- MLS -->
     <header
         tipId="92"
         intent="MakeTipActivity"
-        title="mls_title" />
+        title="mls_title"
+        icon="united_states" />
 
 </tips-headers>

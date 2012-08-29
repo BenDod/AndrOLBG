@@ -88,6 +88,20 @@
         title="boxing_title"
         icon="ic_boxing" />
 
+	<!-- Cycling -->
+    <header
+        tipId="22"
+        intent="MakeTipActivity"
+        title="cycling_title" 
+        icon="ic_cycling" />
+
+	<!-- Rowing -->
+    <header
+        tipId="26"
+        intent="MakeTipActivity"
+        title="rowing_title" 
+        icon="ic_rowing" />
+	
 	<!-- Dogs -->
     <header
         tipId="27"

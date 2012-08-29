@@ -8,24 +8,28 @@
     <header
         tipId="20"
         intent="MakeTipActivity"
-        title="champ_league_title" />
+        title="champ_league_title"
+        icon="champions_league" />
 
 	<!-- Champ League Qual -->
     <header
         tipId="80"
         intent="MakeTipActivity"
-        title="champ_league_qual_title" />
+        title="champ_league_qual_title"
+        icon="champions_league" />
 
 	<!-- Europa League -->
     <header
         tipId="43"
         intent="MakeTipActivity"
-        title="europa_league_title" />
+        title="europa_league_title"
+        icon="europa_league" />
 
     <!-- Europa League Qual -->
     <header
         tipId="81"
         intent="MakeTipActivity"
-        title="europa_league_qual_title" />
+        title="europa_league_qual_title"
+        icon="europa_league" />
     
 </tips-headers>

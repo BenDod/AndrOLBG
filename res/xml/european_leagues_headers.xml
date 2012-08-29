@@ -8,156 +8,245 @@
     <header
         tipId="69"
         intent="MakeTipActivity"
-        title="austrian_title" />
+        title="austrian_title"
+        icon="austria" />
 
     <!-- Belgian -->
     <header
         tipId="54"
         intent="MakeTipActivity"
-        title="belgian_title" />
+        title="belgian_title"
+        icon="belgium" />
 
     <!-- Bulgarian -->
     <header
         tipId="102"
         intent="MakeTipActivity"
-        title="bulgarian_title" />
+        title="bulgarian_title"
+        icon="bulgaria" />
 
     <!-- Croatian -->
     <header
         tipId="98"
         intent="MakeTipActivity"
-        title="croatian_title" />
+        title="croatian_title"
+        icon="croatia" />
 
     <!-- Czech Republic -->
     <header
         tipId="83"
         intent="MakeTipActivity"
-        title="czech_republic_title" />
+        title="czech_republic_title"
+        icon="czech_republic" />
 
     <!-- Danish -->
     <header
         tipId="58"
         intent="MakeTipActivity"
-        title="danish_title" />
+        title="danish_title"
+        icon="denmark" />
 
     <!-- Dutch -->
     <header
         tipId="60"
         intent="MakeTipActivity"
-        title="dutch_title" />
+        title="dutch_title"
+        icon="netherlands" />
+
+    <!-- Dutch 2 -->
+    <header
+        tipId="91"
+        intent="MakeTipActivity"
+        title="dutch2_title"
+        icon="netherlands" />
 
     <!-- Finnish -->
     <header
         tipId="59"
         intent="MakeTipActivity"
-        title="finnish_title" />
+        title="finnish_title"
+        icon="finland" />
 
     <!-- French -->
     <header
         tipId="46"
         intent="MakeTipActivity"
-        title="french_title" />
+        title="french_title"
+        icon="france" />
 
     <!-- French 2 -->
     <header
         tipId="89"
         intent="MakeTipActivity"
-        title="french2_title" />
+        title="french2_title"
+        icon="france" />
 
     <!-- German -->
     <header
         tipId="45"
         intent="MakeTipActivity"
-        title="german_title" />
+        title="german_title"
+        icon="germany" />
 
     <!-- German 2 -->
     <header
         tipId="90"
         intent="MakeTipActivity"
-        title="german2_title" />
+        title="german2_title"
+        icon="germany" />
 
     <!-- Greek -->
     <header
         tipId="100"
         intent="MakeTipActivity"
-        title="greek_title" />
+        title="greek_title"
+        icon="greece" />
 
-	<!-- Irish -->
+	<!-- Hungarian -->
+    <header
+        tipId="107"
+        intent="MakeTipActivity"
+        title="hungarian_title"
+        icon="hungary" />
+
+    <!-- Irish -->
     <header
         tipId="66"
         intent="MakeTipActivity"
-        title="irish_title" />
+        title="irish_title"
+        icon="ireland" />
+
+    <!-- Israeli -->
+    <header
+        tipId="101"
+        intent="MakeTipActivity"
+        title="israeli_title"
+        icon="israel" />
 
     <!-- Italian -->
     <header
         tipId="29"
         intent="MakeTipActivity"
-        title="italian_title" />
+        title="italian_title"
+        icon="italy" />
+
+    <!-- Italian B -->
+    <header
+        tipId="88"
+        intent="MakeTipActivity"
+        title="italian_b_title"
+        icon="italy" />
+
+    <!-- Latvian -->
+    <header
+        tipId="112"
+        intent="MakeTipActivity"
+        title="latvian_title"
+        icon="latvia" />
 
     <!-- Norwegian -->
     <header
         tipId="62"
         intent="MakeTipActivity"
-        title="norwegian_title" />
+        title="norwegian_title"
+        icon="norway" />
 
 	<!-- Polish -->
     <header
         tipId="106"
         intent="MakeTipActivity"
-        title="polish_title" />
+        title="polish_title"
+        icon="poland" />
 
 	<!-- Portuguese -->
     <header
         tipId="63"
         intent="MakeTipActivity"
-        title="portuguese_title" />
+        title="portuguese_title"
+        icon="portugal" />
 
     <!-- Romanian -->
     <header
         tipId="99"
         intent="MakeTipActivity"
-        title="romanian_title" />
+        title="romanian_title"
+        icon="romania" />
 
     <!-- Russian -->
     <header
         tipId="64"
         intent="MakeTipActivity"
-        title="russian_title" />
+        title="russian_title"
+        icon="russia" />
+
+    <!-- Serbian -->
+    <header
+        tipId="104"
+        intent="MakeTipActivity"
+        title="serbian_title"
+        icon="serbia" />
 
     <!-- Slovakian -->
     <header
         tipId="108"
         intent="MakeTipActivity"
-        title="slovakian_title" />
+        title="slovakian_title"
+        icon="slovakia" />
+
+    <!-- Slovenian -->
+    <header
+        tipId="105"
+        intent="MakeTipActivity"
+        title="slovenian_title"
+        icon="slovenia" />
 
     <!-- Spanish -->
     <header
         tipId="19"
         intent="MakeTipActivity"
-        title="spanish_title" />
+        title="spanish_title"
+        icon="spain" />
 
 	<!-- Spanish 2 -->
     <header
         tipId="84"
         intent="MakeTipActivity"
-        title="spanish2_title" />
+        title="spanish2_title"
+        icon="spain" />
+
+	<!-- Spanish Cup -->
+    <header
+        tipId="122"
+        intent="MakeTipActivity"
+        title="spanish_cup_title"
+        icon="spain" />
 
 	<!-- Swedish -->
     <header
         tipId="67"
         intent="MakeTipActivity"
-        title="swedish_title" />
+        title="swedish_title"
+        icon="sweden" />
 
     <!-- Swiss -->
     <header
         tipId="70"
         intent="MakeTipActivity"
-        title="swiss_title" />
+        title="swiss_title"
+        icon="switzerland" />
     
 	<!-- Turkish -->
     <header
         tipId="53"
         intent="MakeTipActivity"
-        title="turkish_title" />
+        title="turkish_title"
+        icon="turkey" />
 
+	<!-- Ukranian -->
+    <header
+        tipId="111"
+        intent="MakeTipActivity"
+        title="ukranian_title"
+        icon="ukraine" />
+    
 </tips-headers>

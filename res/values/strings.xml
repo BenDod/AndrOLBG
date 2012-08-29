@@ -29,6 +29,8 @@
     <string name="motor_racing_title">Motor Racing</string>
     <string name="darts_title">Darts</string>
     <string name="boxing_title">Boxing</string>
+	<string name="cycling_title">Cycling</string>
+    <string name="rowing_title">Rowing</string>
 	<string name="dogs_title">Dogs</string>
     <string name="athletics_title">Athletics</string>
 		
@@ -59,33 +61,52 @@
     <string name="czech_republic_title">Czech Republic</string>
     <string name="danish_title">Danish</string>
     <string name="dutch_title">Dutch</string>
+    <string name="dutch2_title">Dutch 2</string>
     <string name="finnish_title">Finnish</string>
     <string name="french_title">French</string>
     <string name="french2_title">French 2</string>
     <string name="german_title">German</string>
     <string name="german2_title">German 2</string>
     <string name="greek_title">Greek</string>
+	<string name="hungarian_title">Hungarian</string>
 	<string name="irish_title">Irish</string>
+    <string name="israeli_title">Israeli</string>
     <string name="italian_title">Italian</string>
+    <string name="italian_b_title">Italian B</string>
+    <string name="latvian_title">Latvian</string>
     <string name="norwegian_title">Norwegian</string>
     <string name="polish_title">Polish</string>
 	<string name="portuguese_title">Portuguese</string>
     <string name="romanian_title">Romanian</string>
     <string name="russian_title">Russian</string>
+    <string name="serbian_title">Serbian</string>
     <string name="slovakian_title">Slovakian</string>
+    <string name="slovenian_title">Slovenian</string>
     <string name="spanish_title">Spanish</string>
-    <string name="spanish2_title">Spanish 2</string><string name="swedish_title">Swedish</string>
+    <string name="spanish2_title">Spanish 2</string>
+    <string name="spanish_cup_title">Spanish Cup</string>
+    <string name="swedish_title">Swedish</string>
     <string name="swiss_title">Swiss</string>
 	<string name="turkish_title">Turkish</string>
-		
+	<string name="ukranian_title">Ukranian</string>
+    	
+    <string name="asian_cup_title">Asian Cup</string>
+    <string name="african_nations_cup_title">African Nations Cup</string>
+    <string name="confederations_cup_title">Confederations Cup</string>
+    <string name="copa_america_title">Copa America</string>
+    <string name="euro_u21_title">Euro U21</string>
     <string name="olympics_title">Olympics</string>
     <string name="world_cup_finals_title">World Cup Finals</string>
+	<string name="world_cup_qualifiers_title">World Cup Qualifiers</string>
 		
     <string name="argentinian_apertura_title">Argentinian Apertura</string>
+    <string name="argentinian_clausura_title">Argentinian Clausura</string>
+    <string name="australian_title">Australian</string>
     <string name="brasilian_title">Brasilian</string>
     <string name="chilean_title">Chilean</string>
 	<string name="j_league_title">J-League</string>
-    <string name="mls_title">MLS</string>
+    <string name="mexican_title">Mexican</string>
+	<string name="mls_title">MLS</string>
 		
     <string name="scottish_prem_title">Scottish Prem</string>
     <string name="scottish1_title">Scottish 1</string>
@@ -109,6 +130,7 @@
     <string name="chk_nb">NB</string>
     <string name="tip_comment">Tip Comment (optional)</string>
     <string name="total_stake">Total Stake Amount</string>
+	<string name="of_total">Of:</string>
 	<string name="bet_type">Bet Type</string>
     <string name="bet_odds">Odds</string>
     <string name="confirm_tip">Confirm Tip</string>

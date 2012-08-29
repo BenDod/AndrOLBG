@@ -8,36 +8,42 @@
     <header
         tipId="14"
         intent="TipsMenuActivity"
-        title="english_football_title" />
+        title="english_football_title"
+        icon="england" />
 
     <!-- European Comps -->
     <header
         tipId="15"
         intent="TipsMenuActivity"
-        title="european_comps_title" />
+        title="european_comps_title"
+        icon="european_union" />
 
     <!-- European Leagues -->
     <header
         tipId="21"
         intent="TipsMenuActivity"
-        title="european_leagues_title" />
+        title="european_leagues_title"
+        icon="european_union" />
 
     <!-- International -->
     <header
         tipId="22"
         intent="TipsMenuActivity"
-        title="international_title" />
+        title="international_title"
+        icon="world" />
 
     <!-- Scottish Football -->
     <header
         tipId="30"
         intent="TipsMenuActivity"
-        title="scottish_football_title" />
+        title="scottish_football_title"
+        icon="scotland" />
 
     <!-- World Leagues -->
     <header
         tipId="26"
         intent="TipsMenuActivity"
-        title="world_leagues_title" />
+        title="world_leagues_title"
+        icon="world" />
 
 </tips-headers>

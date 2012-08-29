@@ -5,6 +5,7 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 import com.bendod.androlbg.activity.AbstractActivity;
+import com.bendod.androlbg.connector.Login;
 import com.bendod.androlbg.connector.OLBGParser;
 import com.bendod.androlbg.enumerations.StatusCode;
 import com.bendod.androlbg.utils.Utils;
@@ -21,6 +22,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.app.ProgressDialog;
 
 import com.actionbarsherlock.view.Window;
@@ -239,9 +241,11 @@ public class MakeTipActivity extends AbstractActivity {
 				confirmTipDialog.dismiss();
 			}
 			if((StatusCode) msg.obj == StatusCode.TIP_SAVED) {
+				Login.setActualUnsettledTips(Login.getActualUnsettledTips()+1);
+				Login.setActualVirtualMoney(Login.getActualVirtualMoney() - tip.stake);
+				ofTotalInit();
 				((Spinner) findViewById(R.id.event_id)).setSelection(0);
-				helpDialog("", res.getString(R.string.info_tip_saved));
-				//Login.
+				helpDialog("", res.getString(R.string.info_tip_saved));				
 			}else{
 				helpDialog("", res.getString(R.string.err_tip_post_failed));
 			}
@@ -264,7 +268,7 @@ public class MakeTipActivity extends AbstractActivity {
 		
 		setContentView(R.layout.make_tip);
 		
-		btnInit();
+		init();
 		if(tipId == 2) {
 			horseRacingInit();
 		}
@@ -276,9 +280,15 @@ public class MakeTipActivity extends AbstractActivity {
         
     }
 	
-	private void btnInit() {
+	private void init() {
 		final Button confirmTipBtn = (Button) findViewById(R.id.confirm_tip_btn);
 		confirmTipBtn.setOnClickListener(new confirmTip());
+		ofTotalInit();
+	}
+    
+	private void ofTotalInit() {
+		final TextView ofTotal = (TextView) findViewById(R.id.of_total);
+		ofTotal.setText(res.getText(R.string.of_total) + " " + Integer.toString(Login.getActualVirtualMoney()));
 	}
     
 	private void horseRacingInit() {

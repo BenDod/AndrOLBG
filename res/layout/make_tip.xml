@@ -77,11 +77,21 @@
 	        android:layout_height="wrap_content"
 	        android:text="@string/total_stake" />
     
-    <EditText android:id="@+id/stake_id"
-        	android:layout_width="fill_parent"
+    <LinearLayout  
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    <EditText android:id="@+id/stake_id"
+	        	android:layout_weight="1"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:inputType="numberDecimal" />
+	    <TextView  android:id="@+id/of_total"
+	        android:layout_weight="1"
+	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:inputType="numberDecimal" />
-
+	        android:gravity="center_horizontal" />
+	</LinearLayout>
     <TextView
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
